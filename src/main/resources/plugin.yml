@@ -1,0 +1,15 @@
+api-version: '1.13'
+author: Epicnicity322
+depend: [ EpicPluginLib ]
+description: Makes entities swerve from projectiles.
+main: 'com.epicnicity322.arrowswerve.ArrowSwerve'
+name: 'ArrowSwerve'
+softdepend: [ EnchantsSquared ]
+version: '${project.version}'
+website: 'https://github.com/Epicnicity322/ArrowSwerve/'
+
+commands:
+  arrowswervereload:
+    aliases: [ asreload, asrl ]
+    description: Reloads ArrowSwerve configuration.
+    permission: arrowswerve.reload
